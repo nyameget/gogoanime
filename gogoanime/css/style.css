@@ -1,0 +1,256 @@
+body{
+    background-color: #000000;
+    width: 100%;
+    margin: 0;
+}
+#main{
+    width: 80%;
+    margin: auto;
+    background-color: #111111;
+    color: #ffc119;
+    padding: 1rem;
+}
+#header{
+    display: flex;
+}
+#label{
+    align-self: center;
+    margin-left: 3rem;
+}
+#label p{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 2rem;
+    margin: 0;
+}
+#navbar ul{
+    display: flex;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style-type: none;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+#navbar li a{
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a#active{
+    color: #ffc119 !important;
+}
+#search-bar{
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    background-color: #1b1b1b;
+    border-color: #959595;
+    height: 2rem;
+}
+#content{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+#signin{
+    margin-left: 3.5rem;
+    padding: 0.5rem;
+}
+#f{
+    color: #959595;
+}
+#signin span{
+    padding: 0.2rem;
+}
+#signin a{
+    color: #959595;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#info a{
+    color: #959595;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#first{
+    border: 1px solid #959595;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#rfirst{
+    border: 1px solid #959595;
+    margin-bottom: 1rem;
+}
+#second{
+    border: 1px solid #959595;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#rsecond{
+    border: 1px solid #959595;
+    margin-bottom: 1rem;
+}
+#third{
+    border: 1px solid #959595;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+#rthird{
+    border: 1px solid #959595;
+    margin-bottom: 1rem;
+}
+#rfouth{
+    border: 1px solid #959595;
+    margin-bottom: 1rem;
+}
+#rfifth{
+    border: 1px solid #959595;
+    margin-bottom: 1rem;
+}
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #ffc119;
+}
+.left-title span{
+    padding: 0.3srem;
+    color: #010101;
+    text-transform: uppercase;
+    text-align: center;
+    align-self: center;
+}
+.left-title a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+}
+.left-title img{
+    width: 20px;
+    padding: 0;
+}
+.fi{
+    margin-left: 0.5rem;
+}
+.active-num{
+    background-color: #00a651;
+}
+#next span{
+    padding: 0.5rem;
+}
+#next a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #010101;
+}
+#rfirst-content img{
+    width: 100%;
+    height: 15rem;
+}
+#rsecod-content a{
+    text-decoration: none;
+    color: #ffc119;
+}
+#rsecod-content p{
+    color: #ffffff;
+}
+#rthird-content{
+    margin: 0.5rem;
+    padding: 0;
+}
+#rthird-content ul{
+    padding: 0;
+}
+#rthird-content li{
+    list-style-type: none;
+    padding: 0;
+}
+#rthird-content a{
+    text-decoration: none;
+    color: #ffc119;
+    padding: 0;
+}
+#update-detail{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.update{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.update img{
+    width: 4rem;
+    height: 4rem;
+}
+.deatils a{
+    text-decoration: none;
+    color: #ffc119;
+    padding: 0;
+}
+.deatils p{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #959595;
+}
+.deatils p:last-child{
+    color: #ffffff;
+}
+#anime-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#anime{
+    width: 100%;
+    display: block;
+}
+#anime img{
+    padding: 1rem;
+    width: 80%;
+    height: 13rem;
+    padding-bottom: 0;
+}
+#anime p{
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+#anime a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffc119;
+}
+#anime p:last-child{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+#th-content ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+#th-content li{
+    list-style-type: none;
+}
+#th-content a{
+    text-decoration: none;
+    color: #ffc119;
+}
+#rfi-content span:first-child{
+    color: #959595;
+}
+#rfi-content{
+    padding: 0.25rem;
+}
+#rfi-content a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #ffc119;
+}
+.active-link a{
+    color: #ffffff !important;
+}
